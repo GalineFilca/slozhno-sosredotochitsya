@@ -3,10 +3,43 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme-dark {
+  --bg-color: rgba(0, 0, 40, 1);
+  --text-color: rgba(241, 178, 206, 1);
+  --text-color-accent: rgba(0, 0, 40, 1);
+  --subtitle-color-accent: rgba(255, 0, 112, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --accent-color-hover: rgba(255, 0, 112, 0.4);
+  --accent-color-nav: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --accent-title-color: rgba(255, 0, 112, 1);
+  --font-size-small: 18px;
+  --font-size-large: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-weight-large: 700;
+  --font-weight-small: 400;
+  --line-height-small: 130%;
+  --line-height-large: 82.5%;
+}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  background-image: url(../images/cover-image-dark.png);
+  --bg-color: rgba(0, 0, 40, 1);
+  --text-color: rgba(241, 178, 206, 1);
+  --text-color-accent: rgba(0, 0, 40, 1);
+  --subtitle-color-accent: rgba(255, 0, 112, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --accent-color-hover: rgba(255, 0, 112, 0.4);
+  --accent-color-nav: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --accent-title-color: rgba(255, 0, 112, 1);
+  --font-size-small: 18px;
+  --font-size-large: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-weight-large: 700;
+  --font-weight-small: 400;
+  --line-height-small: 130%;
+  --line-height-large: 82.5%;
 }
