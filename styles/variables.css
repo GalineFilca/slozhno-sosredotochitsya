@@ -13,7 +13,6 @@
   --title-color: rgba(219, 0, 255, 1);
   --accent-title-color: rgba(255, 0, 112, 1);
   --font-size-small: 18px;
-  --font-size-large: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-weight-large: 700;
   --font-weight-small: 400;
   --line-height-small: 130%;
