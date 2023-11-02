@@ -49,5 +49,19 @@
   }
 .page {
   background-image: url(../images/cover-image-light.png);
+  --bg-color: rgba(255, 241, 247, 1);
+  --text-color: rgba(53, 52, 48, 1);
+  --text-color-accent: rgba(53, 52, 48, 1);
+  --subtitle-color-accent: rgba(53, 52, 48, 1);
+  --accent-color: rgba(255, 141, 203, 1);
+  --accent-color-hover: rgba(50, 49, 45, 0.4);
+  --accent-color-nav: rgba(53, 52, 48, 1);
+  --title-color: rgba(255, 194, 230, 1);
+  --accent-title-color: rgba(255, 0, 112, 1);
+  --font-size-small: 18px;
+  --font-weight-large: 700;
+  --font-weight-small: 400;
+  --line-height-small: 130%;
+  --line-height-large: 82.5%;
 }
 }
