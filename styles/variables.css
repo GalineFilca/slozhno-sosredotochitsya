@@ -12,21 +12,11 @@
   --accent-color-nav: rgba(255, 0, 112, 1);
   --title-color: rgba(219, 0, 255, 1);
   --accent-title-color: rgba(255, 0, 112, 1);
+  --font-family: "IBM Plex mono", monospace;
+  --font-style: normal;
   --font-size-small: 18px;
   --font-weight-large: 700;
   --font-weight-small: 400;
   --line-height-small: 130%;
   --line-height-large: 82.5%;
-}
-
-@media (width >= 768px) {
-  :root {
-    --font-size-large: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-}
-
-@media (width >= 1024px) {
-  :root {
-    --font-size-large: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
 }
