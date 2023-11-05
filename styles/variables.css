@@ -2,3 +2,21 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --bg-color: rgba(0, 0, 40, 1);
+  --text-color: rgba(241, 178, 206, 1);
+  --text-color-accent: rgba(0, 0, 40, 1);
+  --subtitle-color-accent: rgba(255, 0, 112, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --accent-color-hover: rgba(255, 0, 112, 0.4);
+  --accent-color-nav: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --accent-title-color: rgba(255, 0, 112, 1);
+  --font-family: "IBM Plex mono", monospace;
+  --font-style: normal;
+  --font-size-small: 18px;
+  --font-weight-large: 700;
+  --font-weight-small: 400;
+  --line-height-small: 130%;
+  --line-height-large: 82.5%;
+}
